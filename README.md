@@ -1,14 +1,25 @@
 # High-Accuracy-CNN-Deep-Learning-for-Botanical-Image-Classification-Segmentation
 Deep learning project using a scratch-built CNN for high-accuracy classification (95.8%) and a fine-tuned DeepLabv3+ model for precise segmentation (98.8%). Optimise the performance for small and complex botanical image datasets, using custom CNN architecture designs
 
-# Deep Vision: Building CNNs from Scratch & Fine-Tuning for Flower Classification & Segmentation
+## Deep Vision: Building CNNs from Scratch & Fine-Tuning for Flower Classification & Segmentation
 
-This project applies **deep learning for computer vision** to solve two real-world image analysis tasks:  
+This project applies **Deep Learning for computer vision** to solve two real-world image analysis tasks:  
 1. **Multiclass Flower Classification** – identifying 17 species of flowers.  
 2. **Semantic Segmentation** – detecting and isolating flower regions from the background.  
 
 It combines a **scratch-built CNN** for classification and a **fine-tuned pretrained DeepLabv3+** model for segmentation.  
-The work demonstrates how **custom architectures** and **transfer learning** can both be effective for solving vision problems on small datasets.
+The work demonstrates how **custom CNN architectures** and **transfer learning** can both be effective for solving vision problems on small datasets.
+
+
+---
+# High-Accuracy-CNN-Deep-Learning-for-Botanical-Image-Classification-Segmentation
+
+Deep learning project applying **Convolutional Neural Networks (CNNs)** to tackle two key computer vision tasks in botanical image analysis:  
+1. **Multiclass Flower Classification** – built a **custom CNN from scratch** using MATLAB’s Deep Learning Toolbox, achieving **95.8% test accuracy** on the Oxford 17 Flowers dataset.  
+2. **Semantic Segmentation** – fine-tuned a **pretrained DeepLabv3+ (ResNet-18 backbone)** for binary flower-vs-background segmentation, reaching **98.8% pixel accuracy** and **84.7% mean IoU** on the DaffodilSeg subset.
+
+Designed to perform **optimally on small, complex datasets**, this project combines **custom CNN architecture design**, **data augmentation**, and **transfer learning** to deliver robust, high-accuracy models for real-world image classification and segmentation challenges.
+
 
 ---
 
@@ -39,6 +50,13 @@ The work demonstrates how **custom architectures** and **transfer learning** can
 ---
 
 ## 📊 Results & Proof
+
+### **Summary**
+
+| Task            | Model                  | Accuracy / IoU  | Key Features                  |
+|-----------------|------------------------|-----------------|--------------------------------|
+| Classification  | Scratch-built CNN      | 95.81% accuracy | Data augmentation, dropout    |
+| Segmentation    | DeepLabv3+ (ResNet-18) | 98.84% accuracy / 84.7% mIoU | Multi-scale context extraction |
 
 ### **1. Flower Classification (Scratch-built CNN)**
 - **Validation accuracy (during training):** 79.78%  
