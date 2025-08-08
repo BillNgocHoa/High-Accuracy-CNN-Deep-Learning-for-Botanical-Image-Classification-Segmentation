@@ -110,5 +110,12 @@ Overlay predictions closely matched ground truth masks, with minimal under-segme
 ## 📄 License
 MIT License – free to use, modify, and share.
 
-**Author:** Ngoc Hoa Nguyen  
-University of Nottingham, UK
+**Author:** 
+
+**Ngoc Hoa Nguyen**
+
+BSc Hons Computer Science, University of Nottingham
+
+**Portfolio**: https://mavenshowcase.com/profile/48d1b3e0-4041-70ba-5a7f-4b39e89b3bc2
+
+**LinkedIn**: https://www.linkedin.com/in/billngochoa/ 
