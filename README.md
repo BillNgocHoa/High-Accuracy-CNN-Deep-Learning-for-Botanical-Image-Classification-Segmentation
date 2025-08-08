@@ -108,7 +108,14 @@ Overlay predictions closely matched ground truth masks, with minimal under-segme
 ---
 
 ## 📄 License
-MIT License – free to use, modify, and share.
+
+This work is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+It may be used and adapted for non-commercial purposes with proper attribution.  
+**Commercial use is strictly prohibited.**
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+---
 
 **Author:** 
 
